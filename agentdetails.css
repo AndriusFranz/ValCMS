@@ -1,0 +1,227 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+}
+body, h2, h3, form, table {
+    margin: 0;
+    padding: 0;
+}
+
+.details-container{
+    max-width: 1080px;
+    margin: auto;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.dashboard-container {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.comment-form{
+    padding-top: 20px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+form textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #f12b15;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #d01010;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+.user-table th,
+.user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.user-table th {
+    background-color: #f2f2f2;
+}
+
+.user-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+@media (max-width: 600px) {
+    .dashboard-container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    form input[type="text"],
+    form input[type="password"],
+    form input[type="email"],
+    form input[type="date"],
+    form select,
+    form textarea,
+    form button {
+        width: 100%;
+    }
+}
+
+#searchInput {
+    margin-bottom: 12px;
+    padding: 8px;
+    width: 98%;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.scrollable-table {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f12b15;
+}
+
+.uldetails {
+    background-color: whitesmoke;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #d01010;
+}
+
+#login, #logout {
+    float: right;
+}
+
+li #agent-list {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.uldetails {
+    background-color: whitesmoke;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#login, #logout {
+    float: right;
+}
+
+li #agent-list {
+    text-decoration: none;
+}
+
+.comment{
+width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.delete{
+    border: none;
+}

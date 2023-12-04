@@ -1,0 +1,16 @@
+https://www.php.net/
+
+
+cms tutorial
+https://www.youtube.com/watch?v=Pr5cH-4c54k
+
+database connection
+https://www.youtube.com/watch?v=ueWpNe0PG34
+
+api fetch
+
+https://stackoverflow.com/questions/33439030/how-to-grab-data-using-fetch-api-post-method-in-php
+
+table fix
+
+GRANT ALL PRIVILEGES ON serverside.* TO 'serveruser'@'localhost';
